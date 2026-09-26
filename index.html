@@ -1,1 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Deep Learning — Autumn 2026, Sudipta Sarkar, CDS, IISER Kolkata">
+  <title>Deep Learning — Autumn 2026 | Sudipta Sarkar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="course-header" id="top">
+      <div class="course-title">
+        <a href="#top">Deep Learning</a>
+      </div>
+      <div class="course-meta">
+        <div>IISER Kolkata</div>
+        <div>Autumn 2026</div>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="Course navigation">
+      <a href="#syllabus">Schedule &amp; Syllabus</a>
+      <a href="#instructor">Instructor</a>
+      <a href="#references">References</a>
+      <a href="#related">Related Courses</a>
+      <a href="assets/Deep_Learning_Autumn_2026_Syllabus.pdf" target="_blank">Syllabus PDF</a>
+    </nav>
+
+    <main>
+      <section class="intro">
+        <h1>Deep Learning — Autumn 2026</h1>
+        <p><strong>Instructor:</strong> <a href="https://sarkarsudipta.github.io" target="_blank" rel="noopener">Sudipta Sarkar</a>, Ph.D. Research Scholar, Computational and Data Sciences (CDS), IISER Kolkata</p>
+        <p><strong>Audience:</strong> Master’s &amp; Ph.D. students &nbsp;|&nbsp; <strong>Format:</strong> 20 lectures × 2 hours = 40 contact hours</p>
+        <p><strong>Class time:</strong> Saturday and Sunday, 8:00 PM–10:00 PM IST &nbsp;|&nbsp; <strong>Course dates:</strong> 1 August–4 October 2026</p>
+        <p><strong>Teaching assistants:</strong> None. For course queries, email <a href="mailto:sudipta.rkmrc@gmail.com">sudipta.rkmrc@gmail.com</a>.</p>
+      </section>
+
+      <section id="syllabus">
+        <h2>Schedule and Syllabus</h2>
+        <p class="note">Course materials are organized lecture-wise. Each lecture row contains links for slides/PDF and video. The schedule follows the official Autumn 2026 syllabus.</p>
+
+        <div class="table-wrap">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Module</th>
+                <th>Event Type</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Course Materials</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="module">Module 01</td>
+                <td>Lecture 1</td>
+                <td>Saturday<br><strong>Aug 01</strong></td>
+                <td><strong>Introduction to Deep Learning</strong><br>History (McCulloch–Pitts → DL revolution), representation learning, learning paradigms, model families, course roadmap.</td>
+                <td class="materials"><a href="materials/L01/slides.pptx">[slides (pptx)]</a> <a href="materials/L01/lecture.pdf">[slides (pdf)]</a> <a href="materials/L01/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module" rowspan="2">Module 02</td>
+                <td>Lecture 2</td>
+                <td>Sunday<br><strong>Aug 02</strong></td>
+                <td><strong>Math Foundations I</strong><br>Linear algebra, eigen-decomposition, SVD/PCA, gradients, Jacobian, Hessian, entropy, cross-entropy, KL divergence, mutual information.</td>
+                <td class="materials"><a href="materials/L02/slides.pptx">[slides (pptx)]</a> <a href="materials/L02/lecture.pdf">[slides (pdf)]</a> <a href="materials/L02/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 3</td>
+                <td>Saturday<br><strong>Aug 08</strong></td>
+                <td><strong>Math Foundations II</strong><br>Probability, distributions, MLE/MAP, bias–variance, random processes, sampling, convolution, DFT/FFT.</td>
+                <td class="materials"><a href="materials/L03/slides.pptx">[slides (pptx)]</a> <a href="materials/L03/lecture.pdf">[slides (pdf)]</a> <a href="materials/L03/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module" rowspan="2">Module 03</td>
+                <td>Lecture 4</td>
+                <td>Sunday<br><strong>Aug 09</strong></td>
+                <td><strong>Neural Networks I</strong><br>Perceptron and convergence, XOR, MLPs, activation functions, universal approximation, width versus depth.</td>
+                <td class="materials"><a href="materials/L04/slides.pptx">[slides (pptx)]</a> <a href="materials/L04/lecture.pdf">[slides (pdf)]</a> <a href="materials/L04/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 5</td>
+                <td>Saturday<br><strong>Aug 15</strong></td>
+                <td><strong>Neural Networks II</strong><br>Hypothesis classes, ERM, generalization, loss functions, computational graphs, backpropagation, autodiff.</td>
+                <td class="materials"><a href="materials/L05/slides.pptx">[slides (pptx)]</a> <a href="materials/L05/lecture.pdf">[slides (pdf)]</a> <a href="materials/L05/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module">Module 04</td>
+                <td>Lecture 6</td>
+                <td>Sunday<br><strong>Aug 16</strong></td>
+                <td><strong>Optimization &amp; Regularization</strong><br>SGD, momentum, Nesterov, AdaGrad, RMSProp, Adam(W), loss landscapes, Newton methods, dropout, BatchNorm, LayerNorm, RMSNorm.</td>
+                <td class="materials"><a href="materials/L06/slides.pptx">[slides (pptx)]</a> <a href="materials/L06/lecture.pdf">[slides (pdf)]</a> <a href="materials/L06/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module" rowspan="3">Module 05</td>
+                <td>Lecture 7</td>
+                <td>Saturday<br><strong>Aug 22</strong></td>
+                <td><strong>CNN I: Fundamentals</strong><br>Local connectivity, weight sharing, 1D/2D convolution, stride, padding, dilation, receptive fields, pooling.</td>
+                <td class="materials"><a href="materials/L07/slides.pptx">[slides (pptx)]</a> <a href="materials/L07/lecture.pdf">[slides (pdf)]</a> <a href="materials/L07/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 8</td>
+                <td>Sunday<br><strong>Aug 23</strong></td>
+                <td><strong>CNN II: Architectures</strong><br>LeNet, AlexNet, ZFNet, VGG, Inception, ResNet, depthwise/separable and dilated convolutions.</td>
+                <td class="materials"><a href="materials/L08/slides.pptx">[slides (pptx)]</a> <a href="materials/L08/lecture.pdf">[slides (pdf)]</a> <a href="materials/L08/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 9</td>
+                <td>Saturday<br><strong>Aug 29</strong></td>
+                <td><strong>CNN III: Visual Understanding</strong><br>Transfer learning, R-CNN family, segmentation, saliency and visualization, adversarial examples, Vision Transformers.</td>
+                <td class="materials"><a href="materials/L09/slides.pptx">[slides (pptx)]</a> <a href="materials/L09/lecture.pdf">[slides (pdf)]</a> <a href="materials/L09/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module" rowspan="3">Module 06</td>
+                <td>Lecture 10</td>
+                <td>Sunday<br><strong>Aug 30</strong></td>
+                <td><strong>RNN I: RNNs &amp; BPTT</strong><br>Recurrence, unrolling, BPTT derivation, vanishing/exploding gradients, truncated BPTT, sequence tasks.</td>
+                <td class="materials"><a href="materials/L10/slides.pptx">[slides (pptx)]</a> <a href="materials/L10/lecture.pdf">[slides (pdf)]</a> <a href="materials/L10/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 11</td>
+                <td>Saturday<br><strong>Sep 05</strong></td>
+                <td><strong>RNN II: Embeddings, LSTM, GRU</strong><br>One-hot versus distributed representations, Word2Vec (CBOW, skip-gram, negative sampling), LSTM, GRU gating.</td>
+                <td class="materials"><a href="materials/L11/slides.pptx">[slides (pptx)]</a> <a href="materials/L11/lecture.pdf">[slides (pdf)]</a> <a href="materials/L11/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 12</td>
+                <td>Sunday<br><strong>Sep 06</strong></td>
+                <td><strong>Seq2Seq, CTC &amp; Beam Search</strong><br>Encoder–decoder, teacher forcing, exposure bias, CTC loss and forward–backward, greedy/beam decoding.</td>
+                <td class="materials"><a href="materials/L12/slides.pptx">[slides (pptx)]</a> <a href="materials/L12/lecture.pdf">[slides (pdf)]</a> <a href="materials/L12/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module" rowspan="3">Module 07</td>
+                <td>Lecture 13</td>
+                <td>Saturday<br><strong>Sep 12</strong></td>
+                <td><strong>Attention Mechanisms</strong><br>Query–key–value, scaled dot-product, self-/cross-attention, multi-head attention, dynamic routing.</td>
+                <td class="materials"><a href="materials/L13/slides.pptx">[slides (pptx)]</a> <a href="materials/L13/lecture.pdf">[slides (pdf)]</a> <a href="materials/L13/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 14</td>
+                <td>Sunday<br><strong>Sep 13</strong></td>
+                <td><strong>Transformers</strong><br>Full architecture, residuals and LayerNorm, causal masking, sinusoidal/relative/RoPE positions, BERT, GPT, T5.</td>
+                <td class="materials"><a href="materials/L14/slides.pptx">[slides (pptx)]</a> <a href="materials/L14/lecture.pdf">[slides (pdf)]</a> <a href="materials/L14/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 15</td>
+                <td>Saturday<br><strong>Sep 19</strong></td>
+                <td><strong>Large Language Models</strong><br>Tokenization, pretraining, scaling laws, KV cache, SFT, LoRA, RLHF, DPO, decoding, RAG, open challenges.</td>
+                <td class="materials"><a href="materials/L15/slides.pptx">[slides (pptx)]</a> <a href="materials/L15/lecture.pdf">[slides (pdf)]</a> <a href="materials/L15/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module" rowspan="3">Module 08</td>
+                <td>Lecture 16</td>
+                <td>Sunday<br><strong>Sep 20</strong></td>
+                <td><strong>Autoencoders</strong><br>Latent representations; undercomplete, sparse, denoising, contractive autoencoders; link to PCA; applications.</td>
+                <td class="materials"><a href="materials/L16/slides.pptx">[slides (pptx)]</a> <a href="materials/L16/lecture.pdf">[slides (pdf)]</a> <a href="materials/L16/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 17</td>
+                <td>Saturday<br><strong>Sep 26</strong></td>
+                <td><strong>Variational Autoencoders</strong><br>Latent-variable models, amortized inference, reparameterization, ELBO derivation, β-VAE, CVAE.</td>
+                <td class="materials"><a href="materials/L17/slides.pptx">[slides (pptx)]</a> <a href="materials/L17/lecture.pdf">[slides (pdf)]</a> <a href="materials/L17/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 18</td>
+                <td>Sunday<br><strong>Sep 27</strong></td>
+                <td><strong>Flows, Diffusion &amp; GANs</strong><br>Change of variables, RealNVP/Glow, DDPM, score matching, latent diffusion, CFG, GAN/WGAN/cGAN.</td>
+                <td class="materials"><a href="materials/L18/slides.pptx">[slides (pptx)]</a> <a href="materials/L18/lecture.pdf">[slides (pdf)]</a> <a href="materials/L18/video.mp4">[video]</a></td>
+              </tr>
+
+              <tr class="module-start">
+                <td class="module" rowspan="2">Module 09</td>
+                <td>Lecture 19</td>
+                <td>Saturday<br><strong>Oct 03</strong></td>
+                <td><strong>GNNs &amp; Energy-Based Models</strong><br>Graph Laplacian, message passing, GCN, GraphSAGE, GAT, MPNN; Hopfield networks, (R)BMs, contrastive divergence.</td>
+                <td class="materials"><a href="materials/L19/slides.pptx">[slides (pptx)]</a> <a href="materials/L19/lecture.pdf">[slides (pdf)]</a> <a href="materials/L19/video.mp4">[video]</a></td>
+              </tr>
+              <tr>
+                <td>Lecture 20</td>
+                <td>Sunday<br><strong>Oct 04</strong></td>
+                <td><strong>State-Space Models, S4 &amp; Mamba</strong><br>Linear SSMs, recurrent versus convolutional views, S4, selective scan, Mamba; RNN/Transformer/SSM comparison.</td>
+                <td class="materials"><a href="materials/L20/slides.pptx">[slides (pptx)]</a> <a href="materials/L20/lecture.pdf">[slides (pdf)]</a> <a href="materials/L20/video.mp4">[video]</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="instructor">
+        <h2>Instructor</h2>
+        <div class="instructor-block">
+          <img src="https://github.com/sarkarsudipta/sarkarsudipta.github.io/blob/main/Rik.jpg" onerror="this.onerror=null;this.src='assets/instructor-placeholder.svg'" alt="Sudipta Sarkar">
+          <div>
+            <h3>Sudipta Sarkar</h3>
+            <p>Ph.D. Research Scholar<br>Computational and Data Sciences (CDS)<br>IISER Kolkata</p>
+            <p><strong>Homepage:</strong> <a href="https://sarkarsudipta.github.io" target="_blank" rel="noopener">sarkarsudipta.github.io</a><br>
+            <strong>Email for queries:</strong> <a href="mailto:sudipta.rkmrc@gmail.com">sudipta.rkmrc@gmail.com</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="references">
+        <h2>Primary References</h2>
+        <ol>
+          <li>Ian Goodfellow, Yoshua Bengio and Aaron Courville, <em>Deep Learning</em>, MIT Press, 2016. <a href="https://www.deeplearningbook.org/" target="_blank" rel="noopener">[online]</a></li>
+          <li>Christopher M. Bishop and Hugh Bishop, <em>Deep Learning: Foundations and Concepts</em>, Springer, 2024.</li>
+          <li>Kevin P. Murphy, <em>Probabilistic Machine Learning</em>, MIT Press, 2022–2023. <a href="https://probml.github.io/" target="_blank" rel="noopener">[online]</a></li>
+        </ol>
+        <p>Original research papers will be listed with the relevant lectures.</p>
+      </section>
+
+      <section id="related">
+        <h2>Recommended Related Courses</h2>
+        <ul class="related-list">
+          <li><strong>UC Berkeley CS C182 / CS 182:</strong> Designing, Visualizing and Understanding Deep Neural Networks — <a href="https://www2.eecs.berkeley.edu/Courses/CSC182/" target="_blank" rel="noopener">course page</a>.</li>
+          <li><strong>UC Berkeley CS 285:</strong> Deep Reinforcement Learning — Sergey Levine — <a href="https://rll.berkeley.edu/deeprlcourse/" target="_blank" rel="noopener">course page</a>.</li>
+          <li><strong>IIT Madras / NPTEL 106106201:</strong> Deep Learning — Part 2 — Prof. Mitesh M. Khapra — <a href="https://nptel.ac.in/courses/106106201" target="_blank" rel="noopener">course page</a>.</li>
+          <li><strong>Stanford CS230:</strong> Deep Learning — <a href="https://cs230.stanford.edu/" target="_blank" rel="noopener">course page</a>.</li>
+          <li><strong>Stanford CS231n:</strong> Deep Learning for Computer Vision — <a href="https://cs231n.stanford.edu/" target="_blank" rel="noopener">course page</a>.</li>
+          <li><strong>Stanford CS224N:</strong> Natural Language Processing with Deep Learning — <a href="https://web.stanford.edu/class/cs224n/" target="_blank" rel="noopener">course page</a>.</li>
+          <li><strong>MIT 6.S191:</strong> Introduction to Deep Learning — <a href="https://introtodeeplearning.com/" target="_blank" rel="noopener">course page</a>.</li>
+        </ul>
+      </section>
+
+      <section class="course-files">
+        <h2>Course Files</h2>
+        <p><a href="Deep_Learning_Autumn_2026/Deep_Learning_Autumn_2026_Syllabus.pdf" target="_blank">[complete syllabus (pdf)]</a> &nbsp; <a href="course.ics">[course calendar (.ics)]</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Deep Learning — Autumn 2026 &nbsp;|&nbsp; Sudipta Sarkar &nbsp;|&nbsp; CDS, IISER Kolkata</p>
+      <p class="small">Page layout follows the simple academic schedule/syllabus style used by university course pages.</p>
+    </footer>
+  </div>
+</body>
+</html>
 
